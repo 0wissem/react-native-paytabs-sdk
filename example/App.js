@@ -23,7 +23,7 @@ export default class App extends Component<{}> {
             language: 'en',
             transaction_title: 'Test Paytabs library',
             order_id: '123456',
-            amount: '99.99',
+            amount: 99.99,
             currency_code: 'BHD',
             phone_number: '009733',
             customer_email: 'customer-email@example.com',
@@ -37,7 +37,8 @@ export default class App extends Component<{}> {
             state_shipping: 'Manama',
             country_shipping: 'BHR',
             postal_code_shipping: '00973',
-            pay_button_color: '#2474bc'
+            pay_button_color: '#2474bc',
+            product_name:'product name'
           }, (data) => {
             console.log(data);
           })
